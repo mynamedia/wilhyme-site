@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Wilhyme</title>
+  <meta name="description" content="Wilhyme — new music coming soon.">
+  <meta property="og:title" content="Wilhyme">
+  <meta property="og:description" content="New music coming soon.">
+  <meta property="og:image" content="https://wilhyme.com/wilhyme-logo.png">
+  <link rel="icon" href="wilhyme-logo.png">
+  <style>
+    :root { --paper: #f4efe4; --ink: #1a1a1a; --muted: #6b655a; }
+    * { box-sizing: border-box; margin: 0; }
+    html, body { height: 100%; }
+    body {
+      background: var(--paper);
+      color: var(--ink);
+      font-family: Georgia, "Times New Roman", serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 1.5rem;
+      padding: 16px;
+      text-align: center;
+    }
+    img {
+      display: block;
+      width: min(560px, 100%, 72vh);
+      height: auto;
+      mix-blend-mode: multiply; /* lets the logo's white background melt into the paper color */
+    }
+    p { color: var(--muted); letter-spacing: 0.14em; text-transform: uppercase; font-size: 0.85rem; line-height: 1.8; }
+    a { color: var(--ink); text-decoration: none; border-bottom: 1px solid rgba(26, 26, 26, 0.35); }
+    a:hover { border-bottom-color: var(--ink); }
+  </style>
+</head>
+<body>
+  <img src="wilhyme-logo.png" alt="Wilhyme logo: the band name in bold hand-lettered type across a sketched acoustic guitar" width="1080" height="1080">
+  <p>New music coming soon &middot; <a href="mailto:dave@wilhyme.com">dave@wilhyme.com</a></p>
+</body>
+</html>
